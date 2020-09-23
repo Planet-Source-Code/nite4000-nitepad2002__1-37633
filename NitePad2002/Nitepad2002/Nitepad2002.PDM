@@ -1,0 +1,194 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\Programs\NOT WORKING\NitePad2002\Setup
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=No
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=No
+ODBCDirect=No
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\MSEXCH35.DLL=
+C:\vbcourse\Programs i made\Nitepad2002\CHKSTR32.ocx=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\msdxm.ocx=
+C:\vbcourse\Programs i made\Nitepad2002\shlwapi.dll=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+C:\vbcourse\Programs i made\Nitepad2002\MSCAL.OCX=
+D:\backup\Programs i made\NitePad2002\SHLWAPI.DLL=
+D:\backup\Programs i made\On website\NitePad2002\Nitepad2002\SHLWAPI.DLL=
+D:\backup\NitePad2002\Nitepad2002\SHLWAPI.DLL=
+D:\backup\Programs\NOT WORKING\NitePad2002\Nitepad2002\SHLWAPI.DLL=
+D:\Programs\NOT WORKING\NitePad2002\Nitepad2002\SHLWAPI.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\MSCAL.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\Richtx32.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\vbcourse\programs i made\nitepad2002\shlwapi.dll=
+c:\program files\common files\system\ado\msado20.tlb=
+c:\program files\common files\system\ado\msado25.tlb=
+d:\backup\programs\not working\nitepad2002\nitepad2002\shlwapi.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\Richtx32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\msdxm.ocx=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=No
+C:\WINDOWS\system32\MSCAL.OCX=Yes
+D:\Programs\NOT WORKING\NitePad2002\Nitepad2002\Nitepad2002.exe=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Programs\NOT WORKING\NitePad2002\Nitepad2002\SHLWAPI.DLL=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\vbcourse\Programs i made\Nitepad2002\Nitepad2002.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\hhctrl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\itss.dll=$(WinSysPath)
+C:\WINDOWS\system32\itircl.dll=$(WinSysPath)
+C:\WINDOWS\hh.exe=$(WinSysPath)
+C:\vbcourse\Programs i made\Nitepad2002\shlwapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\Richtx32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\vbcourse\Programs i made\Nitepad2002\CHKSTR32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSEXCH35.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSPDOX35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\system32\hh.exe=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\vbcourse\Programs i made\Nitepad2002\MSCAL.OCX=$(WinSysPath)
+D:\backup\Programs i made\NitePad2002\Nitepad2002.exe=$(AppPath)
+D:\backup\Programs i made\NitePad2002\SHLWAPI.DLL=$(WinSysPath)
+D:\backup\Programs i made\On website\NitePad2002\Nitepad2002\Nitepad2002.exe=$(AppPath)
+D:\backup\Programs i made\On website\NitePad2002\Nitepad2002\SHLWAPI.DLL=$(WinSysPath)
+D:\backup\NitePad2002\Nitepad2002\Nitepad2002.exe=$(AppPath)
+D:\backup\NitePad2002\Nitepad2002\SHLWAPI.DLL=$(WinSysPath)
+D:\backup\Programs\NOT WORKING\NitePad2002\Nitepad2002\Nitepad2002.exe=$(AppPath)
+D:\Programs\NOT WORKING\NitePad2002\Nitepad2002\Nitepad2002.exe=$(AppPath)
+D:\Programs\NOT WORKING\NitePad2002\Nitepad2002\SHLWAPI.DLL=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\vbcourse\Programs i made\Nitepad2002\Nitepad2002.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\backup\Programs i made\NitePad2002\Nitepad2002.exe=No
+D:\backup\Programs i made\On website\NitePad2002\Nitepad2002\Nitepad2002.exe=No
+D:\backup\NitePad2002\Nitepad2002\Nitepad2002.exe=No
+D:\backup\Programs\NOT WORKING\NitePad2002\Nitepad2002\Nitepad2002.exe=No
+D:\Programs\NOT WORKING\NitePad2002\Nitepad2002\Nitepad2002.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Nitepad2002
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=d:\Programs\NOT WORKING\NitePad2002\Setup
+ProjectFolder=D:\Programs\NOT WORKING\NitePad2002\Nitepad2002
+ServerSideCab=
+File1=d:\Programs\NOT WORKING\NitePad2002\Setup\setup.exe
+File2=d:\Programs\NOT WORKING\NitePad2002\Setup\Setup.Lst
+File3=d:\Programs\NOT WORKING\NitePad2002\Setup\Nitepad2002.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Nitepad2002
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Nitepad2002]
+Icon1=Nitepad2002.exe
+Title1=Nitepad2002
+StartIn1=$(AppPath)
+Key1=Icon1
